@@ -20,4 +20,34 @@ t|x is intractable :(
 - REINFORCE Trick
 - Local Reparameterization Trick
 
+### REINFORCE Trick
+Used to approximate `grad(E[f(x)])`
 
+Key idea: 
+```
+If y = f(x)
+Then grad(y) = y grad(log(y))
+```
+
+- makes no assumptions
+- variance is high, needs Rao-Blackwellization/Control Variates
+
+### Local Reparameterization Trick
+
+Used to approximate `grad(E[f(x)])`
+
+
+Key idea
+```
+f(x), x ~ N(mu, sigma2)
+
+is same as 
+
+f(x), e ~ N(0, 1)
+where x = g(e) = mu + sigma2*e 
+```
+
+- low variance
+- f must be differentiable
+- p(x) must be continuous
+- there must exist some g for p(x)
