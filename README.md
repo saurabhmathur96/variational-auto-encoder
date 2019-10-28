@@ -1,5 +1,5 @@
 # variational-auto-encoder
-Implementation of Kingma and Welling (2014)
+Implementation of VAE from Kingma and Welling (2014) and C-VAE from Sohn, Lee and Yan (2015)
 
 ## Model
 
