@@ -3,9 +3,12 @@ Implementation of VAE from Kingma and Welling (2014) and C-VAE from Sohn, Lee an
 
 ## Results
 
-<img src="vae.gif" alt-text="vae on mnist">
+VAE         |  C-VAE
+:-------------------------:|:-------------------------:
+<img src="vae.gif" alt-text="vae on mnist">  | <img src="cvae.gif" alt-text="c-vae on mnist">
 
-<img src="cvae.gif" alt-text="c-vae on mnist">
+
+
 
 ## Model
 
